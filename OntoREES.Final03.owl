@@ -1,0 +1,1329 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/aedas/ontologies/2020/7/OntoREES"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/aedas/ontologies/2020/7/OntoREES">
+    <Prefix name="" IRI="http://www.semanticweb.org/aedas/ontologies/2020/7/OntoREES"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="pt">Ontologia de Requisitos para Sistemas Embarcados</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Agent-UFO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Altura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ambiente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ampere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atuador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bateria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Componentes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comunicacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confiabilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConsumoDeEnergia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conversores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Custo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desempenho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DisplayLCD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DisplaySeteSegmentos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fisico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterfaceUsuario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Largura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manutenbilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MemoriaDados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MemoriaPrograma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microcontrolador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microprocessador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nivel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Norma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ohm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organizacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paralela"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pessoa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalAgent-UFO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Portabilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Privacidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recurso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requisito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RequisitoEstruturaFisica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RequisitoFuncional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RequisitoNaoFuncional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RequisitoQualidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Segurança"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SistemaEmbarcado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialAgent-UFO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stakeholder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StakeholderHardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StakeholderOrganizacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StakeholderSoftware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StakeholderTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperatura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TempoDeResposta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TempoMedioFalha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TempoOcorrenciaFalha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Umidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Usabilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Volt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wireless"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#botao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#teclado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analogico/Digital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital/Analogico"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causaImpactoEm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causaImpactoNegativoEm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causaImpactoPositivoEm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#define"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#foiDefinidoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#influencia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nivelRequerido"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temNivel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temRecurso"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temRecursoAmbiente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temRecursoHardware"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temRecursoSoftware"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temRequisito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temRequisitoEstruturaFisica"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temRequisitoF"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temRequisitoNF"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éImpactadoNegativamentePor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éImpactadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éImpactadoPositivamentePor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éInfluenciadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éRecursoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éRequisito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éUmRequisitoDe"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TemTempCelsius"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TemTempFahrenheit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temAmpere"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temCentimetroA"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temCentimetroL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temMetroA"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temMetroL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temOhm"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temPesoEmGrama"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temPesoEmQuilo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temUR"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temVolt"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temCustoR$"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ambiente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hardware"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#José"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nivel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RF01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RF02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RF03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RF04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RNF01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RNF02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RNF03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RNF04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RTCA-DO-178-C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SistemaMédico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Software"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Norma"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Recurso"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#influencia"/>
+                <Class IRI="#Hardware"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#influencia"/>
+                <Class IRI="#SistemaEmbarcado"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#influencia"/>
+                <Class IRI="#Software"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#influencia"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Hardware"/>
+                    <Class IRI="#SistemaEmbarcado"/>
+                    <Class IRI="#Software"/>
+                </ObjectUnionOf>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RequisitoFuncional"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Requisito"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#causaImpactoNegativoEm"/>
+                <Class IRI="#RequisitoNaoFuncional"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#causaImpactoPositivoEm"/>
+                <Class IRI="#RequisitoNaoFuncional"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#éImpactadoNegativamentePor"/>
+                <Class IRI="#RequisitoNaoFuncional"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#éImpactadoPositivamentePor"/>
+                <Class IRI="#RequisitoNaoFuncional"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RequisitoNaoFuncional"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Requisito"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#temRequisitoNF"/>
+                <Class IRI="#Fisico"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#temRequisitoNF"/>
+                <Class IRI="#RequisitoEstruturaFisica"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#temRequisitoNF"/>
+                <Class IRI="#RequisitoQualidade"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#temRequisitoNF"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Fisico"/>
+                    <Class IRI="#RequisitoEstruturaFisica"/>
+                    <Class IRI="#RequisitoQualidade"/>
+                </ObjectUnionOf>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SistemaEmbarcado"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="owl:Thing"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#temRecursoAmbiente"/>
+                <Class IRI="#Ambiente"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#temRecursoHardware"/>
+                <Class IRI="#Hardware"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#temRecursoSoftware"/>
+                <Class IRI="#Software"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Stakeholder"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Agent-UFO"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#define"/>
+                <Class IRI="#Requisito"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Agent-UFO"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Altura"/>
+        <Class IRI="#RequisitoEstruturaFisica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ambiente"/>
+        <Class IRI="#Recurso"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ampere"/>
+        <Class IRI="#ConsumoDeEnergia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atuador"/>
+        <Class IRI="#Componentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bateria"/>
+        <Class IRI="#Componentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Componentes"/>
+        <Class IRI="#Fisico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comunicacao"/>
+        <Class IRI="#Fisico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confiabilidade"/>
+        <Class IRI="#RequisitoQualidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConsumoDeEnergia"/>
+        <Class IRI="#RequisitoQualidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conversores"/>
+        <Class IRI="#Fisico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Custo"/>
+        <Class IRI="#RequisitoQualidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desempenho"/>
+        <Class IRI="#RequisitoQualidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DisplayLCD"/>
+        <Class IRI="#InterfaceUsuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DisplaySeteSegmentos"/>
+        <Class IRI="#InterfaceUsuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fisico"/>
+        <Class IRI="#RequisitoNaoFuncional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hardware"/>
+        <Class IRI="#Recurso"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hardware"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#nivelRequerido"/>
+            <Class IRI="#Nivel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hardware"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éInfluenciadoPor"/>
+            <Class IRI="#Norma"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InterfaceUsuario"/>
+        <Class IRI="#Componentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Largura"/>
+        <Class IRI="#RequisitoEstruturaFisica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manutenbilidade"/>
+        <Class IRI="#RequisitoQualidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MemoriaDados"/>
+        <Class IRI="#Componentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MemoriaPrograma"/>
+        <Class IRI="#Componentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microcontrolador"/>
+        <Class IRI="#Componentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microprocessador"/>
+        <Class IRI="#Componentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Norma"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temNivel"/>
+            <Class IRI="#Nivel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ohm"/>
+        <Class IRI="#ConsumoDeEnergia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organizacao"/>
+        <Class IRI="#SocialAgent-UFO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paralela"/>
+        <Class IRI="#Comunicacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peso"/>
+        <Class IRI="#RequisitoEstruturaFisica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pessoa"/>
+        <Class IRI="#PhysicalAgent-UFO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalAgent-UFO"/>
+        <Class IRI="#Agent-UFO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Portabilidade"/>
+        <Class IRI="#RequisitoQualidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Privacidade"/>
+        <Class IRI="#RequisitoQualidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recurso"/>
+        <ObjectUnionOf>
+            <Class IRI="#Ambiente"/>
+            <Class IRI="#Hardware"/>
+            <Class IRI="#Norma"/>
+            <Class IRI="#Software"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recurso"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temRequisitoF"/>
+            <Class IRI="#RequisitoFuncional"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recurso"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temRequisitoNF"/>
+            <Class IRI="#RequisitoNaoFuncional"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito"/>
+        <ObjectUnionOf>
+            <Class IRI="#RequisitoFuncional"/>
+            <Class IRI="#RequisitoNaoFuncional"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#foiDefinidoPor"/>
+            <Class IRI="#Stakeholder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RequisitoEstruturaFisica"/>
+        <Class IRI="#RequisitoNaoFuncional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RequisitoNaoFuncional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causaImpactoNegativoEm"/>
+            <Class IRI="#RequisitoFuncional"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RequisitoNaoFuncional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causaImpactoPositivoEm"/>
+            <Class IRI="#RequisitoFuncional"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RequisitoNaoFuncional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éImpactadoNegativamentePor"/>
+            <Class IRI="#RequisitoFuncional"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RequisitoNaoFuncional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éImpactadoPositivamentePor"/>
+            <Class IRI="#RequisitoFuncional"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RequisitoQualidade"/>
+        <Class IRI="#RequisitoNaoFuncional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Segurança"/>
+        <Class IRI="#RequisitoQualidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <Class IRI="#Componentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serial"/>
+        <Class IRI="#Comunicacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SistemaEmbarcado"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#nivelRequerido"/>
+            <Class IRI="#Nivel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SistemaEmbarcado"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éInfluenciadoPor"/>
+            <Class IRI="#Norma"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialAgent-UFO"/>
+        <Class IRI="#Agent-UFO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <Class IRI="#Recurso"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#nivelRequerido"/>
+            <Class IRI="#Nivel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éInfluenciadoPor"/>
+            <Class IRI="#Norma"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#temRequisitoNF"/>
+            <Class IRI="#RequisitoQualidade"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StakeholderHardware"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StakeholderHardware"/>
+        <Class IRI="#Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StakeholderOrganizacao"/>
+        <Class IRI="#Organizacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StakeholderOrganizacao"/>
+        <Class IRI="#Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StakeholderSoftware"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StakeholderSoftware"/>
+        <Class IRI="#Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StakeholderTime"/>
+        <Class IRI="#Organizacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StakeholderTime"/>
+        <Class IRI="#Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperatura"/>
+        <Class IRI="#RequisitoEstruturaFisica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TempoDeResposta"/>
+        <Class IRI="#Desempenho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TempoMedioFalha"/>
+        <Class IRI="#Confiabilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TempoOcorrenciaFalha"/>
+        <Class IRI="#Confiabilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Umidade"/>
+        <Class IRI="#RequisitoEstruturaFisica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Usabilidade"/>
+        <Class IRI="#RequisitoQualidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volt"/>
+        <Class IRI="#ConsumoDeEnergia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wireless"/>
+        <Class IRI="#Comunicacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#botao"/>
+        <Class IRI="#InterfaceUsuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#teclado"/>
+        <Class IRI="#InterfaceUsuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analogico/Digital"/>
+        <Class IRI="#Conversores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital/Analogico"/>
+        <Class IRI="#Conversores"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Altura"/>
+        <Class IRI="#Largura"/>
+        <Class IRI="#Peso"/>
+        <Class IRI="#Temperatura"/>
+        <Class IRI="#Umidade"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ambiente"/>
+        <Class IRI="#Hardware"/>
+        <Class IRI="#Norma"/>
+        <Class IRI="#Software"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ampere"/>
+        <Class IRI="#Ohm"/>
+        <Class IRI="#Volt"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Atuador"/>
+        <Class IRI="#Bateria"/>
+        <Class IRI="#InterfaceUsuario"/>
+        <Class IRI="#MemoriaDados"/>
+        <Class IRI="#MemoriaPrograma"/>
+        <Class IRI="#Microcontrolador"/>
+        <Class IRI="#Microprocessador"/>
+        <Class IRI="#Sensor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Componentes"/>
+        <Class IRI="#Comunicacao"/>
+        <Class IRI="#Conversores"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Confiabilidade"/>
+        <Class IRI="#ConsumoDeEnergia"/>
+        <Class IRI="#Custo"/>
+        <Class IRI="#Desempenho"/>
+        <Class IRI="#Manutenbilidade"/>
+        <Class IRI="#Portabilidade"/>
+        <Class IRI="#Privacidade"/>
+        <Class IRI="#Segurança"/>
+        <Class IRI="#Usabilidade"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DisplayLCD"/>
+        <Class IRI="#DisplaySeteSegmentos"/>
+        <Class IRI="#botao"/>
+        <Class IRI="#teclado"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fisico"/>
+        <Class IRI="#RequisitoEstruturaFisica"/>
+        <Class IRI="#RequisitoQualidade"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Organizacao"/>
+        <Class IRI="#Pessoa"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Paralela"/>
+        <Class IRI="#Serial"/>
+        <Class IRI="#Wireless"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#RequisitoFuncional"/>
+        <Class IRI="#RequisitoNaoFuncional"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#StakeholderOrganizacao"/>
+        <Class IRI="#StakeholderTime"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TempoMedioFalha"/>
+        <Class IRI="#TempoOcorrenciaFalha"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Analogico/Digital"/>
+        <Class IRI="#Digital/Analogico"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Ambiente"/>
+        <NamedIndividual IRI="#Ambiente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hardware"/>
+        <NamedIndividual IRI="#Hardware"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StakeholderHardware"/>
+        <NamedIndividual IRI="#José"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StakeholderTime"/>
+        <NamedIndividual IRI="#Maria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RequisitoFuncional"/>
+        <NamedIndividual IRI="#RF01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RequisitoFuncional"/>
+        <NamedIndividual IRI="#RF02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RequisitoFuncional"/>
+        <NamedIndividual IRI="#RF03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RequisitoNaoFuncional"/>
+        <NamedIndividual IRI="#RNF01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RequisitoNaoFuncional"/>
+        <NamedIndividual IRI="#RNF02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RequisitoNaoFuncional"/>
+        <NamedIndividual IRI="#RNF03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fisico"/>
+        <NamedIndividual IRI="#RNF04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Software"/>
+        <NamedIndividual IRI="#Software"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#RNF01"/>
+        <NamedIndividual IRI="#RNF02"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#define"/>
+        <NamedIndividual IRI="#Maria"/>
+        <NamedIndividual IRI="#RF01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#foiDefinidoPor"/>
+        <NamedIndividual IRI="#RF03"/>
+        <NamedIndividual IRI="#Maria"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#causaImpactoNegativoEm"/>
+        <NamedIndividual IRI="#RNF01"/>
+        <NamedIndividual IRI="#RNF03"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#causaImpactoPositivoEm"/>
+        <NamedIndividual IRI="#RNF01"/>
+        <NamedIndividual IRI="#RF04"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#causaImpactoPositivoEm"/>
+        <NamedIndividual IRI="#RNF02"/>
+        <NamedIndividual IRI="#RF01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#causaImpactoNegativoEm"/>
+        <NamedIndividual IRI="#RNF03"/>
+        <NamedIndividual IRI="#RF02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temNivel"/>
+        <NamedIndividual IRI="#RTCA-DO-178-C"/>
+        <NamedIndividual IRI="#Nivel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temRecursoAmbiente"/>
+        <NamedIndividual IRI="#SistemaMédico"/>
+        <NamedIndividual IRI="#Ambiente"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temRecursoHardware"/>
+        <NamedIndividual IRI="#SistemaMédico"/>
+        <NamedIndividual IRI="#Hardware"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temRecursoSoftware"/>
+        <NamedIndividual IRI="#SistemaMédico"/>
+        <NamedIndividual IRI="#Software"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temRequisitoF"/>
+        <NamedIndividual IRI="#Software"/>
+        <NamedIndividual IRI="#RF01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temRequisitoF"/>
+        <NamedIndividual IRI="#Software"/>
+        <NamedIndividual IRI="#RF02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temRequisitoNF"/>
+        <NamedIndividual IRI="#Software"/>
+        <NamedIndividual IRI="#RNF02"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#temPesoEmQuilo"/>
+        <NamedIndividual IRI="#Ambiente"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#temPesoEmQuilo"/>
+        <NamedIndividual IRI="#RNF04"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.0</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#causaImpactoNegativoEm"/>
+        <ObjectProperty IRI="#causaImpactoEm"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#causaImpactoPositivoEm"/>
+        <ObjectProperty IRI="#causaImpactoEm"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#temRecursoAmbiente"/>
+        <ObjectProperty IRI="#temRecurso"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#temRecursoHardware"/>
+        <ObjectProperty IRI="#temRecurso"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#temRecursoSoftware"/>
+        <ObjectProperty IRI="#temRecurso"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#temRequisitoF"/>
+        <ObjectProperty IRI="#temRequisito"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#temRequisitoNF"/>
+        <ObjectProperty IRI="#temRequisito"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#éImpactadoNegativamentePor"/>
+        <ObjectProperty IRI="#éImpactadoPor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#éImpactadoPositivamentePor"/>
+        <ObjectProperty IRI="#éImpactadoPor"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#causaImpactoNegativoEm"/>
+        <ObjectProperty IRI="#éImpactadoNegativamentePor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#causaImpactoPositivoEm"/>
+        <ObjectProperty IRI="#éImpactadoPositivamentePor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#define"/>
+        <ObjectProperty IRI="#foiDefinidoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#influencia"/>
+        <ObjectProperty IRI="#éInfluenciadoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#temRecurso"/>
+        <ObjectProperty IRI="#éRecursoDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#temRequisito"/>
+        <ObjectProperty IRI="#éRequisito"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#temRecursoAmbiente"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#temRecursoHardware"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#temRecursoSoftware"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#temRequisito"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#éRequisito"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#define"/>
+        <Class IRI="#Stakeholder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#influencia"/>
+        <Class IRI="#Norma"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nivelRequerido"/>
+        <ObjectUnionOf>
+            <Class IRI="#Hardware"/>
+            <Class IRI="#SistemaEmbarcado"/>
+            <Class IRI="#Software"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temNivel"/>
+        <Class IRI="#Norma"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#éUmRequisitoDe"/>
+        <Class IRI="#Requisito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#define"/>
+        <Class IRI="#Requisito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#influencia"/>
+        <ObjectUnionOf>
+            <Class IRI="#Hardware"/>
+            <Class IRI="#SistemaEmbarcado"/>
+            <Class IRI="#Software"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nivelRequerido"/>
+        <Class IRI="#Nivel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temNivel"/>
+        <Class IRI="#Nivel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temRecurso"/>
+        <Class IRI="#Recurso"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temRecursoAmbiente"/>
+        <Class IRI="#Ambiente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temRecursoHardware"/>
+        <Class IRI="#Hardware"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temRecursoSoftware"/>
+        <Class IRI="#Software"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temRequisitoEstruturaFisica"/>
+        <Class IRI="#RequisitoEstruturaFisica"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temRequisitoF"/>
+        <Class IRI="#RequisitoFuncional"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temRequisitoNF"/>
+        <Class IRI="#RequisitoNaoFuncional"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#éUmRequisitoDe"/>
+        <Class IRI="#Recurso"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#temRequisitoF"/>
+        <ObjectProperty IRI="#temRequisitoNF"/>
+    </DisjointObjectProperties>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TemTempCelsius"/>
+        <ObjectUnionOf>
+            <Class IRI="#Ambiente"/>
+            <Class IRI="#Componentes"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TemTempFahrenheit"/>
+        <ObjectUnionOf>
+            <Class IRI="#Ambiente"/>
+            <Class IRI="#Componentes"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temAmpere"/>
+        <ObjectUnionOf>
+            <Class IRI="#Ambiente"/>
+            <Class IRI="#Componentes"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temCentimetroA"/>
+        <ObjectUnionOf>
+            <Class IRI="#Ambiente"/>
+            <Class IRI="#Componentes"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temCentimetroL"/>
+        <ObjectUnionOf>
+            <Class IRI="#Ambiente"/>
+            <Class IRI="#Componentes"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temMetroA"/>
+        <ObjectUnionOf>
+            <Class IRI="#Ambiente"/>
+            <Class IRI="#Componentes"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temMetroL"/>
+        <ObjectUnionOf>
+            <Class IRI="#Ambiente"/>
+            <Class IRI="#Componentes"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temOhm"/>
+        <ObjectUnionOf>
+            <Class IRI="#Ambiente"/>
+            <Class IRI="#Componentes"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temPesoEmGrama"/>
+        <ObjectUnionOf>
+            <Class IRI="#Ambiente"/>
+            <Class IRI="#Componentes"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temPesoEmQuilo"/>
+        <ObjectUnionOf>
+            <Class IRI="#Ambiente"/>
+            <Class IRI="#Componentes"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temUR"/>
+        <ObjectUnionOf>
+            <Class IRI="#Ambiente"/>
+            <Class IRI="#Componentes"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temVolt"/>
+        <ObjectUnionOf>
+            <Class IRI="#Ambiente"/>
+            <Class IRI="#Componentes"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#TemTempCelsius"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TemTempFahrenheit"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#temAmpere"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#temCentimetroA"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#temCentimetroL"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#temMetroA"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#temMetroL"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#temOhm"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#temPesoEmGrama"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#temPesoEmQuilo"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#temUR"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#temVolt"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#temCustoR$"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
