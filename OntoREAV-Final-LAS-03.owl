@@ -17,6 +17,9 @@
         <Literal xml:lang="pt">Ontologia de Requisitos para Sistemas Embarcados</Literal>
     </Annotation>
     <Declaration>
+        <Class IRI="#A"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Agent-UFO"/>
     </Declaration>
     <Declaration>
@@ -32,7 +35,19 @@
         <Class IRI="#Atuador"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basicos"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Bateria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarregamentoSoftware"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Componentes"/>
@@ -53,6 +68,9 @@
         <Class IRI="#Custo"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#D"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Desempenho"/>
     </Declaration>
     <Declaration>
@@ -60,6 +78,24 @@
     </Declaration>
     <Declaration>
         <Class IRI="#DisplaySeteSegmentos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EngenheiroCertificacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EngenheiroEletronico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EngenheiroMecanico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EngenheiroSeguranca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EngenheiroUsabilidade"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Fisico"/>
@@ -93,6 +129,15 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Norma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NormaHardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NormaSistemaEmbarcado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NormaSoftware"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Ohm"/>
@@ -182,10 +227,19 @@
         <Class IRI="#TempoOcorrenciaFalha"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#TrocaVersao"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Umidade"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Usabilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VerificacaoAuto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VerificacaoManual"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Volt"/>
@@ -221,6 +275,9 @@
         <ObjectProperty IRI="#foiDefinidoPor"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#garanteConformidade"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#influencia"/>
     </Declaration>
     <Declaration>
@@ -228,6 +285,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#temNivel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temRCarregamento"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#temRecurso"/>
@@ -269,7 +329,7 @@
         <ObjectProperty IRI="#éRecursoDe"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#éRequisito"/>
+        <ObjectProperty IRI="#éUmRCarregamentoDo"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#éUmRequisitoDe"/>
@@ -317,53 +377,145 @@
         <NamedIndividual IRI="#A"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Ambiente"/>
+        <NamedIndividual IRI="#ACR-10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ACR-11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ACR-12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ARP-4754-A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ambiente-LAS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#B"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BLR-1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BLR-2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BLR-3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Catastrofica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cleyton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fernanda"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Hardware"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#José"/>
+        <NamedIndividual IRI="#Johnny"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Maria"/>
+        <NamedIndividual IRI="#LoadableAirborneSystem"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Nivel"/>
+        <NamedIndividual IRI="#MCR-6"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#RF01"/>
+        <NamedIndividual IRI="#MCR-7"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#RF02"/>
+        <NamedIndividual IRI="#MCR-8"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#RF03"/>
+        <NamedIndividual IRI="#Perigosa"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#RF04"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#RNF01"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#RNF02"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#RNF03"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#RNF04"/>
+        <NamedIndividual IRI="#R01-Custo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#RTCA-DO-178-C"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SistemaMédico"/>
+        <NamedIndividual IRI="#RTCA-DO-254"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Software"/>
+        <NamedIndividual IRI="#RTCA-DO-326-A"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RTCA-DO-356"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Software-LAS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stakeholder-teste"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VER-20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VER-21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VER-22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#avionico-FAB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#requisito-teste"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#A"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Catastrofica"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#B"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Perigosa"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EngenheiroCertificacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#garanteConformidade"/>
+            <Class IRI="#Norma"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EngenheiroEletronico"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#define"/>
+            <Class IRI="#Fisico"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EngenheiroMecanico"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#define"/>
+            <Class IRI="#RequisitoEstruturaFisica"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EngenheiroSeguranca"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#define"/>
+            <Class IRI="#Segurança"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EngenheiroUsabilidade"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#define"/>
+            <Class IRI="#Usabilidade"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#Norma"/>
         <ObjectIntersectionOf>
@@ -389,6 +541,32 @@
                 </ObjectUnionOf>
             </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#NormaHardware"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#RTCA-DO-254"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#NormaSistemaEmbarcado"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#ARP-4754-A"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#NormaSoftware"/>
+        <ObjectUnionOf>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#RTCA-DO-178-C"/>
+            </ObjectOneOf>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#RTCA-DO-326-A"/>
+            </ObjectOneOf>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#RTCA-DO-356"/>
+            </ObjectOneOf>
+        </ObjectUnionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#RequisitoFuncional"/>
@@ -458,14 +636,21 @@
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#Stakeholder"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#Agent-UFO"/>
-            <ObjectAllValuesFrom>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#define"/>
                 <Class IRI="#Requisito"/>
-            </ObjectAllValuesFrom>
-        </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#garanteConformidade"/>
+                <Class IRI="#Norma"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
     </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#A"/>
+        <Class IRI="#Nivel"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#Agent-UFO"/>
         <Class abbreviatedIRI="owl:Thing"/>
@@ -487,8 +672,27 @@
         <Class IRI="#Componentes"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#B"/>
+        <Class IRI="#Nivel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basicos"/>
+        <Class IRI="#CarregamentoSoftware"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Bateria"/>
         <Class IRI="#Componentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C"/>
+        <Class IRI="#Nivel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarregamentoSoftware"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temRequisito"/>
+            <Class IRI="#Requisito"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Componentes"/>
@@ -515,6 +719,10 @@
         <Class IRI="#RequisitoQualidade"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#D"/>
+        <Class IRI="#Nivel"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Desempenho"/>
         <Class IRI="#RequisitoQualidade"/>
     </SubClassOf>
@@ -525,6 +733,50 @@
     <SubClassOf>
         <Class IRI="#DisplaySeteSegmentos"/>
         <Class IRI="#InterfaceUsuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E"/>
+        <Class IRI="#Nivel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EngenheiroCertificacao"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EngenheiroCertificacao"/>
+        <Class IRI="#Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EngenheiroEletronico"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EngenheiroEletronico"/>
+        <Class IRI="#Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EngenheiroMecanico"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EngenheiroMecanico"/>
+        <Class IRI="#Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EngenheiroSeguranca"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EngenheiroSeguranca"/>
+        <Class IRI="#Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EngenheiroUsabilidade"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EngenheiroUsabilidade"/>
+        <Class IRI="#Stakeholder"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fisico"/>
@@ -584,6 +836,18 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#NormaHardware"/>
+        <Class IRI="#Norma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NormaSistemaEmbarcado"/>
+        <Class IRI="#Norma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NormaSoftware"/>
+        <Class IRI="#Norma"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Ohm"/>
         <Class IRI="#ConsumoDeEnergia"/>
     </SubClassOf>
@@ -637,13 +901,6 @@
             <ObjectProperty IRI="#temRequisitoNF"/>
             <Class IRI="#RequisitoNaoFuncional"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Requisito"/>
-        <ObjectUnionOf>
-            <Class IRI="#RequisitoFuncional"/>
-            <Class IRI="#RequisitoNaoFuncional"/>
-        </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Requisito"/>
@@ -703,16 +960,16 @@
     <SubClassOf>
         <Class IRI="#SistemaEmbarcado"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#nivelRequerido"/>
-            <Class IRI="#Nivel"/>
+            <ObjectProperty IRI="#éInfluenciadoPor"/>
+            <Class IRI="#Norma"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SistemaEmbarcado"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#éInfluenciadoPor"/>
-            <Class IRI="#Norma"/>
-        </ObjectSomeValuesFrom>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#nivelRequerido"/>
+            <Class IRI="#Nivel"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SocialAgent-UFO"/>
@@ -732,6 +989,13 @@
     <SubClassOf>
         <Class IRI="#Software"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temRCarregamento"/>
+            <Class IRI="#CarregamentoSoftware"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#éInfluenciadoPor"/>
             <Class IRI="#Norma"/>
         </ObjectSomeValuesFrom>
@@ -742,6 +1006,10 @@
             <ObjectProperty IRI="#temRequisitoNF"/>
             <Class IRI="#RequisitoQualidade"/>
         </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stakeholder"/>
+        <Class IRI="#Agent-UFO"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#StakeholderHardware"/>
@@ -792,12 +1060,24 @@
         <Class IRI="#Confiabilidade"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#TrocaVersao"/>
+        <Class IRI="#CarregamentoSoftware"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Umidade"/>
         <Class IRI="#RequisitoEstruturaFisica"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Usabilidade"/>
         <Class IRI="#RequisitoQualidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VerificacaoAuto"/>
+        <Class IRI="#CarregamentoSoftware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VerificacaoManual"/>
+        <Class IRI="#CarregamentoSoftware"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Volt"/>
@@ -879,10 +1159,6 @@
         <Class IRI="#RequisitoQualidade"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Organizacao"/>
-        <Class IRI="#Pessoa"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#Paralela"/>
         <Class IRI="#Serial"/>
         <Class IRI="#Wireless"/>
@@ -904,132 +1180,254 @@
         <Class IRI="#Digital/Analogico"/>
     </DisjointClasses>
     <ClassAssertion>
+        <Class IRI="#A"/>
+        <NamedIndividual IRI="#A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Segurança"/>
+        <NamedIndividual IRI="#ACR-10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VerificacaoAuto"/>
+        <NamedIndividual IRI="#ACR-10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Confiabilidade"/>
+        <NamedIndividual IRI="#ACR-11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VerificacaoAuto"/>
+        <NamedIndividual IRI="#ACR-11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Confiabilidade"/>
+        <NamedIndividual IRI="#ACR-12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VerificacaoAuto"/>
+        <NamedIndividual IRI="#ACR-12"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Ambiente"/>
-        <NamedIndividual IRI="#Ambiente"/>
+        <NamedIndividual IRI="#Ambiente-LAS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#B"/>
+        <NamedIndividual IRI="#B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Basicos"/>
+        <NamedIndividual IRI="#BLR-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Usabilidade"/>
+        <NamedIndividual IRI="#BLR-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Basicos"/>
+        <NamedIndividual IRI="#BLR-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Usabilidade"/>
+        <NamedIndividual IRI="#BLR-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Basicos"/>
+        <NamedIndividual IRI="#BLR-3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Segurança"/>
+        <NamedIndividual IRI="#BLR-3"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Hardware"/>
         <NamedIndividual IRI="#Hardware"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#StakeholderHardware"/>
-        <NamedIndividual IRI="#José"/>
+        <Class IRI="#StakeholderSoftware"/>
+        <NamedIndividual IRI="#Johnny"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#StakeholderTime"/>
-        <NamedIndividual IRI="#Maria"/>
+        <Class IRI="#Usabilidade"/>
+        <NamedIndividual IRI="#MCR-6"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#RequisitoFuncional"/>
-        <NamedIndividual IRI="#RF01"/>
+        <Class IRI="#VerificacaoManual"/>
+        <NamedIndividual IRI="#MCR-6"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#RequisitoFuncional"/>
-        <NamedIndividual IRI="#RF02"/>
+        <Class IRI="#Usabilidade"/>
+        <NamedIndividual IRI="#MCR-7"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#RequisitoFuncional"/>
-        <NamedIndividual IRI="#RF03"/>
+        <Class IRI="#VerificacaoManual"/>
+        <NamedIndividual IRI="#MCR-7"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#RequisitoNaoFuncional"/>
-        <NamedIndividual IRI="#RNF01"/>
+        <Class IRI="#Manutenbilidade"/>
+        <NamedIndividual IRI="#MCR-8"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#RequisitoNaoFuncional"/>
-        <NamedIndividual IRI="#RNF02"/>
+        <Class IRI="#VerificacaoManual"/>
+        <NamedIndividual IRI="#MCR-8"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#RequisitoNaoFuncional"/>
-        <NamedIndividual IRI="#RNF03"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Fisico"/>
-        <NamedIndividual IRI="#RNF04"/>
+        <Class IRI="#Custo"/>
+        <NamedIndividual IRI="#R01-Custo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Software"/>
-        <NamedIndividual IRI="#Software"/>
+        <NamedIndividual IRI="#Software-LAS"/>
     </ClassAssertion>
-    <DifferentIndividuals>
-        <NamedIndividual IRI="#RNF01"/>
-        <NamedIndividual IRI="#RNF02"/>
-    </DifferentIndividuals>
+    <ClassAssertion>
+        <Class IRI="#Confiabilidade"/>
+        <NamedIndividual IRI="#VER-20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TrocaVersao"/>
+        <NamedIndividual IRI="#VER-20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Confiabilidade"/>
+        <NamedIndividual IRI="#VER-21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TrocaVersao"/>
+        <NamedIndividual IRI="#VER-21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manutenbilidade"/>
+        <NamedIndividual IRI="#VER-22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TrocaVersao"/>
+        <NamedIndividual IRI="#VER-22"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#causaImpactoNegativoEm"/>
+        <NamedIndividual IRI="#ACR-10"/>
+        <NamedIndividual IRI="#R01-Custo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#causaImpactoNegativoEm"/>
+        <NamedIndividual IRI="#BLR-1"/>
+        <NamedIndividual IRI="#R01-Custo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#causaImpactoPositivoEm"/>
+        <NamedIndividual IRI="#BLR-2"/>
+        <NamedIndividual IRI="#MCR-6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#garanteConformidade"/>
+        <NamedIndividual IRI="#Cleyton"/>
+        <NamedIndividual IRI="#ARP-4754-A"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#define"/>
-        <NamedIndividual IRI="#Maria"/>
-        <NamedIndividual IRI="#RF01"/>
+        <NamedIndividual IRI="#Fernanda"/>
+        <NamedIndividual IRI="#BLR-1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#foiDefinidoPor"/>
-        <NamedIndividual IRI="#RF03"/>
-        <NamedIndividual IRI="#Maria"/>
+        <ObjectProperty IRI="#define"/>
+        <NamedIndividual IRI="#Fernanda"/>
+        <NamedIndividual IRI="#BLR-2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#causaImpactoNegativoEm"/>
-        <NamedIndividual IRI="#RNF01"/>
-        <NamedIndividual IRI="#RNF03"/>
+        <ObjectProperty IRI="#define"/>
+        <NamedIndividual IRI="#Fernanda"/>
+        <NamedIndividual IRI="#BLR-3"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#causaImpactoPositivoEm"/>
-        <NamedIndividual IRI="#RNF01"/>
-        <NamedIndividual IRI="#RF04"/>
+        <ObjectProperty IRI="#define"/>
+        <NamedIndividual IRI="#Fernanda"/>
+        <NamedIndividual IRI="#VER-20"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#causaImpactoPositivoEm"/>
-        <NamedIndividual IRI="#RNF02"/>
-        <NamedIndividual IRI="#RF01"/>
+        <ObjectProperty IRI="#define"/>
+        <NamedIndividual IRI="#Fernanda"/>
+        <NamedIndividual IRI="#VER-21"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#causaImpactoNegativoEm"/>
-        <NamedIndividual IRI="#RNF03"/>
-        <NamedIndividual IRI="#RF02"/>
+        <ObjectProperty IRI="#define"/>
+        <NamedIndividual IRI="#Fernanda"/>
+        <NamedIndividual IRI="#VER-22"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#temNivel"/>
-        <NamedIndividual IRI="#RTCA-DO-178-C"/>
-        <NamedIndividual IRI="#Nivel"/>
+        <ObjectProperty IRI="#define"/>
+        <NamedIndividual IRI="#Johnny"/>
+        <NamedIndividual IRI="#ACR-10"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#temRecursoAmbiente"/>
-        <NamedIndividual IRI="#SistemaMédico"/>
-        <NamedIndividual IRI="#Ambiente"/>
+        <ObjectProperty IRI="#define"/>
+        <NamedIndividual IRI="#Johnny"/>
+        <NamedIndividual IRI="#ACR-11"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#define"/>
+        <NamedIndividual IRI="#Johnny"/>
+        <NamedIndividual IRI="#ACR-12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#define"/>
+        <NamedIndividual IRI="#Johnny"/>
+        <NamedIndividual IRI="#MCR-6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#define"/>
+        <NamedIndividual IRI="#Johnny"/>
+        <NamedIndividual IRI="#MCR-7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#define"/>
+        <NamedIndividual IRI="#Johnny"/>
+        <NamedIndividual IRI="#MCR-8"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#temRecursoHardware"/>
-        <NamedIndividual IRI="#SistemaMédico"/>
+        <NamedIndividual IRI="#LoadableAirborneSystem"/>
+        <NamedIndividual IRI="#Hardware"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#causaImpactoNegativoEm"/>
+        <NamedIndividual IRI="#MCR-6"/>
+        <NamedIndividual IRI="#R01-Custo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#influencia"/>
+        <NamedIndividual IRI="#RTCA-DO-254"/>
+        <NamedIndividual IRI="#Hardware"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nivelRequerido"/>
+        <NamedIndividual IRI="#Software-LAS"/>
+        <NamedIndividual IRI="#A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temRequisitoNF"/>
+        <NamedIndividual IRI="#Software-LAS"/>
+        <NamedIndividual IRI="#requisito-teste"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#define"/>
+        <NamedIndividual IRI="#Stakeholder-teste"/>
+        <NamedIndividual IRI="#requisito-teste"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temRecursoAmbiente"/>
+        <NamedIndividual IRI="#avionico-FAB"/>
+        <NamedIndividual IRI="#Ambiente-LAS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temRecursoHardware"/>
+        <NamedIndividual IRI="#avionico-FAB"/>
         <NamedIndividual IRI="#Hardware"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#temRecursoSoftware"/>
-        <NamedIndividual IRI="#SistemaMédico"/>
-        <NamedIndividual IRI="#Software"/>
+        <NamedIndividual IRI="#avionico-FAB"/>
+        <NamedIndividual IRI="#Software-LAS"/>
     </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#temRequisitoF"/>
-        <NamedIndividual IRI="#Software"/>
-        <NamedIndividual IRI="#RF01"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#temRequisitoF"/>
-        <NamedIndividual IRI="#Software"/>
-        <NamedIndividual IRI="#RF02"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#temRequisitoNF"/>
-        <NamedIndividual IRI="#Software"/>
-        <NamedIndividual IRI="#RNF02"/>
-    </ObjectPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#temPesoEmQuilo"/>
-        <NamedIndividual IRI="#Ambiente"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.0</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#temPesoEmQuilo"/>
-        <NamedIndividual IRI="#RNF04"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.0</Literal>
-    </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#causaImpactoNegativoEm"/>
         <ObjectProperty IRI="#causaImpactoEm"/>
@@ -1087,12 +1485,16 @@
         <ObjectProperty IRI="#éInfluenciadoPor"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#temRCarregamento"/>
+        <ObjectProperty IRI="#éUmRCarregamentoDo"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#temRecurso"/>
         <ObjectProperty IRI="#éRecursoDe"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#temRequisito"/>
-        <ObjectProperty IRI="#éRequisito"/>
+        <ObjectProperty IRI="#éUmRequisitoDe"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#temRecursoAmbiente"/>
@@ -1106,11 +1508,8 @@
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#temRequisito"/>
     </TransitiveObjectProperty>
-    <TransitiveObjectProperty>
-        <ObjectProperty IRI="#éRequisito"/>
-    </TransitiveObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#define"/>
+        <ObjectProperty IRI="#garanteConformidade"/>
         <Class IRI="#Stakeholder"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1129,25 +1528,9 @@
         <ObjectProperty IRI="#temNivel"/>
         <Class IRI="#Norma"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#temRecursoAmbiente"/>
-        <Class IRI="#SistemaEmbarcado"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#temRecursoHardware"/>
-        <Class IRI="#SistemaEmbarcado"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#temRecursoSoftware"/>
-        <Class IRI="#SistemaEmbarcado"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#éUmRequisitoDe"/>
-        <Class IRI="#Requisito"/>
-    </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#define"/>
-        <Class IRI="#Requisito"/>
+        <ObjectProperty IRI="#garanteConformidade"/>
+        <Class IRI="#Norma"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#influencia"/>
@@ -1164,10 +1547,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#temNivel"/>
         <Class IRI="#Nivel"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#temRecurso"/>
-        <Class IRI="#Recurso"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#temRecursoAmbiente"/>
@@ -1192,10 +1571,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#temRequisitoNF"/>
         <Class IRI="#RequisitoNaoFuncional"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#éUmRequisitoDe"/>
-        <Class IRI="#Recurso"/>
     </ObjectPropertyRange>
     <DisjointObjectProperties>
         <ObjectProperty IRI="#temRequisitoF"/>
@@ -1337,6 +1712,71 @@
         <DataProperty IRI="#temCustoR$"/>
         <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ACR-10</IRI>
+        <Literal>O ACCS deve ser capaz de garantir que a versão carregada está completa, comparando o CRC carregado com o CRC esperado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ACR-11</IRI>
+        <Literal>O ACCS deve ser capaz de garantir que a versão carregada está correta.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ACR-12</IRI>
+        <Literal>O ACCS deve se comunicar com o ADS se a versão carregada tiver um CRC diferente do esperado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BLR-1</IRI>
+        <Literal>O LAS deve possuir uma LI para permitir o carregamento do NVS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BLR-2</IRI>
+        <Literal>A SUP desenvolverá o FLSP.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BLR-3</IRI>
+        <Literal>O SUP deve identificar NSV.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MCR-6</IRI>
+        <Literal>O FLSP deve incluir o MCP.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MCR-7</IRI>
+        <Literal>O MCP deve incluir o SI esperado do NSV.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MCR-8</IRI>
+        <Literal>O MCP deve incluir o CRC esperado do NSV.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RTCA-DO-178-C</IRI>
+        <Literal>Apresenta os processos de desenvolvimento de software, incluindo o processo de especificação de requisitos. Tem em um número significativo de objetivos associados ao desenvolvimento de requisitos de software.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VER-20</IRI>
+        <Literal>O ACCS deve comparar se todos os LAS têm o mesmo SI.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VER-21</IRI>
+        <Literal>O ACCS deve notificar o ADS se o LAS tem SI diferente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VER-22</IRI>
+        <Literal>O MCP deve conter instruções para verificar se todos os LAS têm o mesmo SI.</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
